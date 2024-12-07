@@ -45,7 +45,7 @@ This function processes the user’s input to generate a password:
 
 3. Main Function
 
-The main() function serves as the program’s entry point:
+#### The main() function serves as the program’s entry point:
 
 1. User Input:
 - Collects the desired total length of the password, the number of symbols, and the number of numbers.
