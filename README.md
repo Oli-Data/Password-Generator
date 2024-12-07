@@ -30,29 +30,29 @@ This function initializes and returns three lists:
 This function processes the user’s input to generate a password:
 
 1.Input Parameters:
-char_list, symbols_list, num_list: Lists containing the available characters.
-char_limit, num_symbols, num_count: User-defined counts for letters, symbols, and numbers.
+- char_list, symbols_list, num_list: Lists containing the available characters.
+- char_limit, num_symbols, num_count: User-defined counts for letters, symbols, and numbers.
  
 2. Random Selection:
-Uses random.sample() to randomly select characters from the lists based on user specifications.
+- Uses random.sample() to randomly select characters from the lists based on user specifications.
  
 3. Merge and Shuffle:
-Combines all selected elements into a single list.
-Shuffles the combined list using random.shuffle() to enhance randomness.
+- Combines all selected elements into a single list.
+- Shuffles the combined list using random.shuffle() to enhance randomness.
 
 4. Password Generation:
-Converts the shuffled list into a string using ''.join().
+- Converts the shuffled list into a string using ''.join().
 
 3. Main Function
 
 The main() function serves as the program’s entry point:
 
 1. User Input:
-Collects the desired total length of the password, the number of symbols, and the number of numbers.
-Validates that the sum of symbols and numbers does not exceed the total password length.
+- Collects the desired total length of the password, the number of symbols, and the number of numbers.
+- Validates that the sum of symbols and numbers does not exceed the total password length.
 2. List Initialization:
-Calls the lists() function to retrieve character, symbol, and number lists.
+- Calls the lists() function to retrieve character, symbol, and number lists.
 3. Password Generation:
-Calls list_processing() to generate the password based on the user’s preferences.
+- Calls list_processing() to generate the password based on the user’s preferences.
 4. Output:
-Prints the generated password.
+- Prints the generated password.
