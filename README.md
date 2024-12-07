@@ -1,16 +1,16 @@
 # Oli Password Generator
 
-Summary
+### Summary
 
 This Python project demonstrates how to create a secure, customizable password generator. The program allows users to specify the total length of the password, the number of symbols, and the number of numbers included. Using Python’s built-in random module, the program generates a strong, randomized password that combines letters, symbols, and numbers based on the user’s preferences.
 
-Features
+### Features
 
 - Customizable Password Length: Users can define the total number of characters in the password.
 - Symbol and Number Inclusion: Allows specifying the count of symbols and numbers to include in the password.
 - Randomization: Shuffles the selected characters to ensure randomness and enhance security.
 
- Code Breakdown
+ ### Code Breakdown
 
 1. Importing Required Module
 
