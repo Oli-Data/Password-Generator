@@ -18,18 +18,18 @@ The program imports the random module, which is essential for generating random 
 
 2. Defining Helper Functions
 
-a. lists()
+#### a. lists()
 
 This function initializes and returns three lists:
 - num_list: A list of numeric characters (0–9).
 - symbols_list: A list of common symbols used in passwords.
 - char_list: A list of lowercase alphabetic characters (a–z).
 
- b. list_processing()
+ #### b. list_processing()
 
 This function processes the user’s input to generate a password:
 
-1.Input Parameters:
+1. Input Parameters:
 - char_list, symbols_list, num_list: Lists containing the available characters.
 - char_limit, num_symbols, num_count: User-defined counts for letters, symbols, and numbers.
  
